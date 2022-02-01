@@ -362,7 +362,7 @@ export default function Home() {
                 />
                 <input
                   type="number"
-                  placeholder="Amount of CryptoDev tokens"
+                  placeholder="Amount of PDPkrypto tokens"
                   onChange={(e) =>
                     setAddCDTokens(
                       BigNumber.from(utils.parseEther(e.target.value || "0"))
@@ -476,15 +476,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Crypto Devs</title>
+        <title>PDPkrypto test exchange</title>
         <meta name="description" content="Exchange-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs Exchange!</h1>
+          <h1 className={styles.title}>Welcome to PDPkrypto test Exchange!</h1>
           <div className={styles.description}>
-            Exchange Ethereum &#60;&#62; Crypto Dev Tokens
+            Exchange Ethereum &#60;&#62; PDPkrypto Tokens
           </div>
           <div>
             <button
@@ -511,9 +511,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className={styles.footer}>
-        Made with &#10084; by Crypto Devs
-      </footer>
+      <footer className={styles.footer}>PDPkrypto 2022</footer>
     </div>
   );
 }
